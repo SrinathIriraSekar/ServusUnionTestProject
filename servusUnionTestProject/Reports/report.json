@@ -1,0 +1,354 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "login and navigate to home page Test 1",
+        "description": "",
+        "id": "test-home-page;login-and-navigate-to-home-page-test-1;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4046513600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259072600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check whether username, password and login button is present",
+            "match": {
+              "location": "TestHomePage.check_whether_username_password_and_login_button_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821778900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Input email address sri@gmail.com and password password into the respective fields",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sri@gmail.com",
+                  "offset": 20
+                },
+                {
+                  "val": "password",
+                  "offset": 47
+                }
+              ],
+              "location": "TestHomePage.input_email_address_and_password_into_the_respective_fields(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@testSU"
+          },
+          {
+            "line": 4,
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Listgroup check Test 2",
+        "description": "",
+        "id": "test-home-page;listgroup-check-test-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3156257500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47466500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Check whether there are three values in the listgroup",
+            "match": {
+              "location": "TestHomePage.check_whther_there_are_three_values_in_the_listgroup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1124610600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "check the second list item\u0027s value is set to \"List Item 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "List Item 2",
+                  "offset": 46
+                }
+              ],
+              "location": "TestHomePage.check_the_second_list_items_value_is_set_to_something(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Check whether the second list item\u0027s badge value is 6",
+            "match": {
+              "location": "TestHomePage.check_whether_the_second_list_items_badge_value_is_6()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Listgroup check Test 3",
+        "description": "",
+        "id": "test-home-page;listgroup-check-test-3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2769982600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91611000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Check Option 1 is the default selected value",
+            "match": {
+              "location": "TestHomePage.check_option_1_is_the_default_selected_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1318567600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Select Option 3 from the select list",
+            "match": {
+              "location": "TestHomePage.select_option_3_from_the_select_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Listgroup check Test 4",
+        "description": "",
+        "id": "test-home-page;listgroup-check-test-4",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2646900100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149096200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Check that the first button is enabled and that the second button is disabled",
+            "match": {
+              "location": "TestHomePage.check_that_the_first_button_is_enabled_and_that_the_second_button_is_disabled()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Listgroup check Test 5",
+        "description": "",
+        "id": "test-home-page;listgroup-check-test-5",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3067662300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6283366300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on the button once it\u0027s displayed",
+            "match": {
+              "location": "TestHomePage.click_on_the_button_once_its_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36491700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Once you\u0027ve clicked the button, check that a success message is displayed",
+            "match": {
+              "location": "TestHomePage.once_youve_clicked_the_button_check_that_a_success_message_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44803800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Check that the button is now disabled",
+            "match": {
+              "location": "TestHomePage.check_that_the_button_is_now_disabled()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Listgroup check Test 6",
+        "description": "",
+        "id": "test-home-page;listgroup-check-test-6",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2902779300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Navigate to home page",
+            "match": {
+              "location": "TestHomePage.navigate_to_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50312948200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Find the value of any cell on the grid",
+            "match": {
+              "location": "TestHomePage.find_the_value_of_any_cell_on_the_grid()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252745500,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Find the value of the cell at coordinates 2, 2",
+            "match": {
+              "location": "TestHomePage.find_the_value_of_the_cell_at_coordinates_2_2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93271500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Check whether the value of the cell is \"Ventosanzap\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ventosanzap",
+                  "offset": 40
+                }
+              ],
+              "location": "TestHomePage.check_whether_the_value_of_the_cell_is_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Home Page",
+    "description": "",
+    "id": "test-home-page",
+    "keyword": "Feature",
+    "uri": "src/test/java/testSU/features/testHomePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@testSU"
+      }
+    ]
+  }
+]

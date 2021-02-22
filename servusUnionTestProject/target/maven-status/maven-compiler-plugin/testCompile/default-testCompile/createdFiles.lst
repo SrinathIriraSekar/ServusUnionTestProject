@@ -1,0 +1,6 @@
+testSU\runner\TestRunner.class
+testSU\stepDefinition\TestHomePage.class
+utility\JVMReport.class
+utility\WebdriverManager.class
+utility\PropertyFileReader.class
+testSU\Pages\Homepage.class
